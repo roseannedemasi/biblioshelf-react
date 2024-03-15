@@ -1,17 +1,18 @@
 import './App.css';
 import Header from './components/header';
-import Banner from './components/banner';
 
-function App() {
+import { Outlet } from 'react-router-dom';
+
+function Home() {
   return (
     <div>
       <div className='container'>
+        <Home />
         <Header />
-        <Banner />
-        <img src='/img/image_books1.avif' alt='Foto de livros antigos' style={{ width: '100%', height: 'auto' }} />
+        <Outlet />
       </div>
     </div>
   )
 }
 
-export default App;
+export default Home;

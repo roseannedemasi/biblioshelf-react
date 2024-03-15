@@ -1,0 +1,17 @@
+.buttonStyle {
+    background-color: black;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 105px;
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.buttonStyle:hover {
+    background-color: #A9A9A9;
+    color: black;
+}

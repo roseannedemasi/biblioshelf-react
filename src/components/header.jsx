@@ -15,15 +15,15 @@ const headerStyle = {
     padding: '10px',
     width: '100%',
     position: 'absolute',
-    top: 0,
+    top: 20,
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center'
 }
 
 const h1Style = {
-    color: '#fff',
-    marginLeft: '10px',
+    color: '#A9A9A9',
+    marginLeft: '90px',
     fontFamily: '"Roboto Mono", monospace',
     fontSize: '20px'
 }

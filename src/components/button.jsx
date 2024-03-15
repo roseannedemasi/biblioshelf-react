@@ -1,28 +1,14 @@
 import React from "react";
+import './Button.css'
+
+import { Link } from "react-router-dom";
 
 function Button({children}) {
     return (
         <div>
-            <button style={buttonStyle}>{children}</button>
+            <Link to="/login" className="buttonStyle">{children}</Link>
         </div>
     )
-}
-
-const  buttonStyle = {
-    backgroundColor: 'black',
-    color: '#fff',
-    padding: '10px 20px',
-    fontSize: '15px',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    marginRight: '10px',
-    fontFamily: '"Roboto Mono", monospace',
-    fontWeight: 'bold'
-}
-
-buttonStyle[':hover'] = {
-    backgroundColor: '#fff',
-    color: 'black'
 }
 
 export default Button;
